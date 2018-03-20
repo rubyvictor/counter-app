@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const DownvoteButton = (props) => {
-return <button onClick={props.subtract}>-</button>;
-}
+const DownvoteButton = props => {
+  return <button onClick={props.subtract}>-</button>;
+};
 
 export default DownvoteButton;
